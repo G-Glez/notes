@@ -1,32 +1,33 @@
+[Principal](../README.md)
 # Patrones de diseño
 
 Los patrones de diseño son estructuras normalizadas (generalmente de OOP) creadas con el fin de facilitar y estandarizar determinadas operaciones que son comunes al diseño de software en general (creación de objetos, patrones de comportamiento, patrones de desacople de sistemas...).
 
-||Patrón|
-|---|---|
-|:green_circle:|Abstract Factory|
-|:red_circle:|Adapter|
-|:red_circle:|Bridge|
-|:red_circle:|Builder|
-|:red_circle:|Chain of Responsibility|
-|:red_circle:|Command|
-|:red_circle:|Composite|
-|:red_circle:|Decorator|
-|:red_circle:|Facade|
-|:red_circle:|Factory Method|
-|:red_circle:|Flyweight|
-|:red_circle:|Interpreter|
-|:red_circle:|Iterator|
-|:red_circle:|Mediator|
-|:red_circle:|Memento|
-|:red_circle:|Observer|
-|:red_circle:|Prototype|
-|:red_circle:|Proxy|
-|:red_circle:|Singleton|
-|:red_circle:|State|
-|:red_circle:|Strategy|
-|:red_circle:|Template Method|
-|:red_circle:|Visitor|
+|                | Patrón                  |
+| -------------- | ----------------------- |
+| :green_circle: | Abstract Factory        |
+| :red_circle:   | Adapter                 |
+| :red_circle:   | Bridge                  |
+| :red_circle:   | Builder                 |
+| :red_circle:   | Chain of Responsibility |
+| :red_circle:   | Command                 |
+| :red_circle:   | Composite               |
+| :red_circle:   | Decorator               |
+| :red_circle:   | Facade                  |
+| :red_circle:   | Factory Method          |
+| :red_circle:   | Flyweight               |
+| :red_circle:   | Interpreter             |
+| :red_circle:   | Iterator                |
+| :red_circle:   | Mediator                |
+| :red_circle:   | Memento                 |
+| :red_circle:   | Observer                |
+| :red_circle:   | Prototype               |
+| :red_circle:   | Proxy                   |
+| :red_circle:   | Singleton               |
+| :red_circle:   | State                   |
+| :red_circle:   | Strategy                |
+| :red_circle:   | Template Method         |
+| :red_circle:   | Visitor                 |
 
 ## Patrones creacionales
 
