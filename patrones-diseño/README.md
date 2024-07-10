@@ -16,54 +16,30 @@ Provee de una interfaz para crear objetos relacionados o dependientes entre sí,
 
 ### Diagrama
 
-```mermaid
-classDiagram
-    direction RL
-    class AbstractFactory {
-        <<interface>>
-        +createObject1()
-        +createObject2()
-    }
+![AbstractFactory](./assets/img/abstract-factory.jpg)
 
-    class AbstractFactoryImpl1 {
-        +createObject1()
-        +createObject2()
-    }
+### Partes
 
-    class AbstractFactoryImpl2 {
-        +createObject1()
-        +createObject2()
-    }
+- `Abstract Factory`: interfaz que define las operaciones que generan los objetos (Item).
+- `ConcreteFactory[0-9]`[^1]: implementaciones de la factoría. Depende de las implementaciones de los items.
+- `Item[A-Z]`[^2]: interfaces de las clases a construir.
+- `Item[A-Z][0-1]`: implementaciones de las diferentes interfaces de clases a construir. En algunos contextos, existen familias que implementan `Item[A-Z]` de forma coherente entre sí.
+- `APP`: aplicación que utilizará las interfaces, agnóstica de las implementaciones.
 
-    class ItemA {
-        <<interface>>
-    }
+### Pros
 
-    class ItemAImpl1
-    class ItemAImpl2
+- Aísla clases concretas: como se crean instancias de las clases que maneja la Abstract Factory es desconocido para el que la esté utilizando.
+- Es fácil cambiar entre diferentes "familias" de `Items`: cambiar de familias de implementaciones de los mismos items consiste simplemente en cambiar la factoría concreta que se esté utilizando.
+- Promueve la consistencia entre `Items`: las diferentes familias trabajan juntas con más cohesión, ya que la implementación de una sola familia es manejada por una factoría concreta.
 
-    class ItemB {
-        <<interface>>
-    }
+### Contras
 
-    class ItemBImpl1
-    class ItemBImpl2
+- Ampliar nuevos `Items` es más difícil: para añadir nuevos `Items` a una familia, hay que modificar tanto el contrato como las diferentes implementaciones de la factoría.  
+Solucionar este problema no es especialmente complicado: si no se puede acceder a la implementación de la factoría, podemos simplemente extenderla y usar dicha extensión como nueva factoría (aunque no es una solución muy elegante).
 
+> [!NOTE]
+> Es común que una implementación de AbstractFactory sea un Singleton.
+> Es común que las diferentes implementaciones de los `Items` a su vez implementen un Factory Method u otro patrón de creación.
 
-    AbstractFactory <|.. AbstractFactoryImpl1
-    AbstractFactory <|.. AbstractFactoryImpl2
-
-    ItemA <|.. ItemAImpl1
-    ItemA <|.. ItemAImpl2
-
-    ItemB <|.. ItemBImpl1
-    ItemB <|.. ItemBImpl2
-
-    AbstractFactoryImpl1 ..> ItemAImpl1 : creates
-    AbstractFactoryImpl1 ..> ItemBImpl1 : creates
-
-    AbstractFactoryImpl2 ..> ItemAImpl2 : creates
-    AbstractFactoryImpl2 ..> ItemBImpl2 : creates
-```
-
-</details>
+[^1]: `[0-9]` es intercambiable por cualquier número, haciendo así referencia a algún objeto|clase|interfaz.
+[^2]: `[A-Z]` es intercambiable por cualquier número, haciendo así referencia a algún objeto|clase|interfaz.
