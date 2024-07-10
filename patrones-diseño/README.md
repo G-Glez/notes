@@ -2,13 +2,39 @@
 
 Los patrones de diseño son estructuras normalizadas (generalmente de OOP) creadas con el fin de facilitar y estandarizar determinadas operaciones que son comunes al diseño de software en general (creación de objetos, patrones de comportamiento, patrones de desacople de sistemas...).
 
+||Patrón|
+|---|---|
+|:green_circle:|Abstract Factory|
+|:red_circle:|Adapter|
+|:red_circle:|Bridge|
+|:red_circle:|Builder|
+|:red_circle:|Chain of Responsibility|
+|:red_circle:|Command|
+|:red_circle:|Composite|
+|:red_circle:|Decorator|
+|:red_circle:|Facade|
+|:red_circle:|Factory Method|
+|:red_circle:|Flyweight|
+|:red_circle:|Interpreter|
+|:red_circle:|Iterator|
+|:red_circle:|Mediator|
+|:red_circle:|Memento|
+|:red_circle:|Observer|
+|:red_circle:|Prototype|
+|:red_circle:|Proxy|
+|:red_circle:|Singleton|
+|:red_circle:|State|
+|:red_circle:|Strategy|
+|:red_circle:|Template Method|
+|:red_circle:|Visitor|
+
 ## Patrones creacionales
 
 Los patrones creacionales se encargan de abstraer cómo crear una instancia de una clase.
 
 <details>
 
-<summary>Abstract Factory (GO4)</summary>
+<summary>Abstract Factory (Go4)</summary>
 
 ### Introducción
 
@@ -150,6 +176,829 @@ public class App {
     }
 }
 ```
+
+</details>
+
+---
+
+<details>
+
+<summary>Builder (Go4)</summary>
+
+### Introducción
+
+### Diagrama
+
+<details> 
+
+<summary>Ver diagrama</summary>
+
+![patron](link)
+</details>
+
+### Partes
+
+- `Parte1`: parte1
+
+### Pros
+
+- Pro
+
+### Contras
+
+- Contra
+
+### Notas
+
+- Una nota
+
+### Ejemplo
+
+</details>
+
+---
+
+<details>
+
+<summary>Factory Method (Go4)</summary>
+
+### Introducción
+
+### Diagrama
+
+<details> 
+
+<summary>Ver diagrama</summary>
+
+![patron](link)
+</details>
+
+### Partes
+
+- `Parte1`: parte1
+
+### Pros
+
+- Pro
+
+### Contras
+
+- Contra
+
+### Notas
+
+- Una nota
+
+### Ejemplo
+
+</details>
+
+---
+
+<details>
+
+<summary>Prototype (Go4)</summary>
+
+### Introducción
+
+### Diagrama
+
+<details> 
+
+<summary>Ver diagrama</summary>
+
+![patron](link)
+</details>
+
+### Partes
+
+- `Parte1`: parte1
+
+### Pros
+
+- Pro
+
+### Contras
+
+- Contra
+
+### Notas
+
+- Una nota
+
+### Ejemplo
+
+</details>
+
+---
+
+<details>
+
+<summary>Singleton (Go4)</summary>
+
+### Introducción
+
+### Diagrama
+
+<details> 
+
+<summary>Ver diagrama</summary>
+
+![patron](link)
+</details>
+
+### Partes
+
+- `Parte1`: parte1
+
+### Pros
+
+- Pro
+
+### Contras
+
+- Contra
+
+### Notas
+
+- Una nota
+
+### Ejemplo
+
+</details>
+
+---
+
+## Patrones estructurales
+
+
+<details>
+
+<summary>Adapter (Go4)</summary>
+
+### Introducción
+
+### Diagrama
+
+<details> 
+
+<summary>Ver diagrama</summary>
+
+![patron](link)
+</details>
+
+### Partes
+
+- `Parte1`: parte1
+
+### Pros
+
+- Pro
+
+### Contras
+
+- Contra
+
+### Notas
+
+- Una nota
+
+### Ejemplo
+
+</details>
+
+---
+
+<details>
+
+<summary>Bridge (Go4)</summary>
+
+### Introducción
+
+### Diagrama
+
+<details> 
+
+<summary>Ver diagrama</summary>
+
+![patron](link)
+</details>
+
+### Partes
+
+- `Parte1`: parte1
+
+### Pros
+
+- Pro
+
+### Contras
+
+- Contra
+
+### Notas
+
+- Una nota
+
+### Ejemplo
+
+</details>
+
+---
+
+<details>
+
+<summary>Composite (Go4)</summary>
+
+### Introducción
+
+### Diagrama
+
+<details> 
+
+<summary>Ver diagrama</summary>
+
+![patron](link)
+</details>
+
+### Partes
+
+- `Parte1`: parte1
+
+### Pros
+
+- Pro
+
+### Contras
+
+- Contra
+
+### Notas
+
+- Una nota
+
+### Ejemplo
+
+</details>
+
+---
+
+<details>
+
+<summary>Decorator (Go4)</summary>
+
+### Introducción
+
+### Diagrama
+
+<details> 
+
+<summary>Ver diagrama</summary>
+
+![patron](link)
+</details>
+
+### Partes
+
+- `Parte1`: parte1
+
+### Pros
+
+- Pro
+
+### Contras
+
+- Contra
+
+### Notas
+
+- Una nota
+
+### Ejemplo
+
+</details>
+
+---
+
+<details>
+
+<summary>Facade (Go4)</summary>
+
+### Introducción
+
+### Diagrama
+
+<details> 
+
+<summary>Ver diagrama</summary>
+
+![patron](link)
+</details>
+
+### Partes
+
+- `Parte1`: parte1
+
+### Pros
+
+- Pro
+
+### Contras
+
+- Contra
+
+### Notas
+
+- Una nota
+
+### Ejemplo
+
+</details>
+
+---
+
+<details>
+
+<summary>Flyweight (Go4)</summary>
+
+### Introducción
+
+### Diagrama
+
+<details> 
+
+<summary>Ver diagrama</summary>
+
+![patron](link)
+</details>
+
+### Partes
+
+- `Parte1`: parte1
+
+### Pros
+
+- Pro
+
+### Contras
+
+- Contra
+
+### Notas
+
+- Una nota
+
+### Ejemplo
+
+</details>
+
+---
+
+<details>
+
+<summary>Proxy (Go4)</summary>
+
+### Introducción
+
+### Diagrama
+
+<details> 
+
+<summary>Ver diagrama</summary>
+
+![patron](link)
+</details>
+
+### Partes
+
+- `Parte1`: parte1
+
+### Pros
+
+- Pro
+
+### Contras
+
+- Contra
+
+### Notas
+
+- Una nota
+
+### Ejemplo
+
+</details>
+
+---
+
+## Patrones de comportamiento
+
+<details>
+
+<summary>Chain of Responsibility (Go4)</summary>
+
+### Introducción
+
+### Diagrama
+
+<details> 
+
+<summary>Ver diagrama</summary>
+
+![patron](link)
+</details>
+
+### Partes
+
+- `Parte1`: parte1
+
+### Pros
+
+- Pro
+
+### Contras
+
+- Contra
+
+### Notas
+
+- Una nota
+
+### Ejemplo
+
+</details>
+
+---
+
+<details>
+
+<summary>Command (Go4)</summary>
+
+### Introducción
+
+### Diagrama
+
+<details> 
+
+<summary>Ver diagrama</summary>
+
+![patron](link)
+</details>
+
+### Partes
+
+- `Parte1`: parte1
+
+### Pros
+
+- Pro
+
+### Contras
+
+- Contra
+
+### Notas
+
+- Una nota
+
+### Ejemplo
+
+</details>
+
+---
+
+<details>
+
+<summary>Interpreter (Go4)</summary>
+
+### Introducción
+
+### Diagrama
+
+<details> 
+
+<summary>Ver diagrama</summary>
+
+![patron](link)
+</details>
+
+### Partes
+
+- `Parte1`: parte1
+
+### Pros
+
+- Pro
+
+### Contras
+
+- Contra
+
+### Notas
+
+- Una nota
+
+### Ejemplo
+
+</details>
+
+---
+
+<details>
+
+<summary>Iterator (Go4)</summary>
+
+### Introducción
+
+### Diagrama
+
+<details> 
+
+<summary>Ver diagrama</summary>
+
+![patron](link)
+</details>
+
+### Partes
+
+- `Parte1`: parte1
+
+### Pros
+
+- Pro
+
+### Contras
+
+- Contra
+
+### Notas
+
+- Una nota
+
+### Ejemplo
+
+</details>
+
+---
+
+<details>
+
+<summary>Mediator (Go4)</summary>
+
+### Introducción
+
+### Diagrama
+
+<details> 
+
+<summary>Ver diagrama</summary>
+
+![patron](link)
+</details>
+
+### Partes
+
+- `Parte1`: parte1
+
+### Pros
+
+- Pro
+
+### Contras
+
+- Contra
+
+### Notas
+
+- Una nota
+
+### Ejemplo
+
+</details>
+
+---
+
+<details>
+
+<summary>Memento (Go4)</summary>
+
+### Introducción
+
+### Diagrama
+
+<details> 
+
+<summary>Ver diagrama</summary>
+
+![patron](link)
+</details>
+
+### Partes
+
+- `Parte1`: parte1
+
+### Pros
+
+- Pro
+
+### Contras
+
+- Contra
+
+### Notas
+
+- Una nota
+
+### Ejemplo
+
+</details>
+
+---
+
+<details>
+
+<summary>Observer (Go4)</summary>
+
+### Introducción
+
+### Diagrama
+
+<details> 
+
+<summary>Ver diagrama</summary>
+
+![patron](link)
+</details>
+
+### Partes
+
+- `Parte1`: parte1
+
+### Pros
+
+- Pro
+
+### Contras
+
+- Contra
+
+### Notas
+
+- Una nota
+
+### Ejemplo
+
+</details>
+
+---
+
+<details>
+
+<summary>State (Go4)</summary>
+
+### Introducción
+
+### Diagrama
+
+<details> 
+
+<summary>Ver diagrama</summary>
+
+![patron](link)
+</details>
+
+### Partes
+
+- `Parte1`: parte1
+
+### Pros
+
+- Pro
+
+### Contras
+
+- Contra
+
+### Notas
+
+- Una nota
+
+### Ejemplo
+
+</details>
+
+---
+
+<details>
+
+<summary>Strategy (Go4)</summary>
+
+### Introducción
+
+### Diagrama
+
+<details> 
+
+<summary>Ver diagrama</summary>
+
+![patron](link)
+</details>
+
+### Partes
+
+- `Parte1`: parte1
+
+### Pros
+
+- Pro
+
+### Contras
+
+- Contra
+
+### Notas
+
+- Una nota
+
+### Ejemplo
+
+</details>
+
+---
+
+<details>
+
+<summary>Template Method (Go4)</summary>
+
+### Introducción
+
+### Diagrama
+
+<details> 
+
+<summary>Ver diagrama</summary>
+
+![patron](link)
+</details>
+
+### Partes
+
+- `Parte1`: parte1
+
+### Pros
+
+- Pro
+
+### Contras
+
+- Contra
+
+### Notas
+
+- Una nota
+
+### Ejemplo
+
+</details>
+
+---
+
+<details>
+
+<summary>Visitor (Go4)</summary>
+
+### Introducción
+
+### Diagrama
+
+<details> 
+
+<summary>Ver diagrama</summary>
+
+![patron](link)
+</details>
+
+### Partes
+
+- `Parte1`: parte1
+
+### Pros
+
+- Pro
+
+### Contras
+
+- Contra
+
+### Notas
+
+- Una nota
+
+### Ejemplo
+
+</details>
+
+---
 
 [^1]: `[0-9]` es intercambiable por cualquier número, haciendo así referencia a algún objeto|clase|interfaz.
 [^2]: `[A-Z]` es intercambiable por cualquier número, haciendo así referencia a algún objeto|clase|interfaz.
