@@ -34,11 +34,13 @@ Provee de una interfaz para crear objetos relacionados o dependientes entre sí,
 
 ### Contras
 
-- Ampliar nuevos `Items` es más difícil: para añadir nuevos `Items` a una familia, hay que modificar tanto el contrato como las diferentes implementaciones de la factoría.  
+- Ampliar nuevos `Items` puede ser difícil: para añadir nuevos `Items` a una familia, hay que modificar tanto el contrato como las diferentes implementaciones de la factoría.  
 Solucionar este problema no es especialmente complicado: si no se puede acceder a la implementación de la factoría, podemos simplemente extenderla y usar dicha extensión como nueva factoría (aunque no es una solución muy elegante).
 
 > [!NOTE]
 > Es común que una implementación de AbstractFactory sea un Singleton.
+
+> [!NOTE]
 > Es común que las diferentes implementaciones de los `Items` a su vez implementen un Factory Method u otro patrón de creación.
 
 [^1]: `[0-9]` es intercambiable por cualquier número, haciendo así referencia a algún objeto|clase|interfaz.
